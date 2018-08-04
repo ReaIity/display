@@ -1,0 +1,149 @@
+.main {
+	margin-top: 65px;
+    width: 500px;
+    height: 426px;
+    position: absolute;
+    /* top: -22%; */
+    left: 23%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    background: white;
+}
+.input {
+	width: 400px;
+    height: 30px;
+    margin: 20px 48px 0px 48px;
+    text-align: right;
+    font-size: x-large;
+    vertical-align: middle;
+    border-color: blue;
+}
+.buttonBox {
+	width: 488px;
+    height: 326px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 35px 5px 0px 5px;
+}
+.number {
+	cursor: pointer;
+    /* font-weight: bold; */
+    /* line-height: 1em; */
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 0.28571429rem;
+    box-shadow: 0px 0px 0px 1px #e1e8ed inset, 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
+    user-select: none;
+    transition: opacity 0.1s ease, background-color 0.1s ease, color 0.1s ease, box-shadow 0.1s ease, background 0.1s ease;
+    will-change: '';
+    -webkit-tap-highlight-color: transparent;
+    width: 75px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 12px;
+    margin: 5px;
+    background-color: #1b1c1d;
+    /* text-align: center; */
+    font-size: 3em;
+    /* vertical-align: middle; */
+    color: #ffffff;
+    text-shadow: none;
+    background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+}
+.numbers {
+	display: flex;
+	flex-direction: column;
+}
+.calculate {
+	font-size: 3em;
+    margin: 4px;
+}
+.rowCal {
+	display: flex;
+	flex-direction: row;
+}
+.sign {
+	cursor: pointer;
+    /* font-weight: bold; */
+    /* line-height: 1em; */
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 0.28571429rem;
+    box-shadow: 0px 0px 0px 1px #e1e8ed inset, 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
+    user-select: none;
+    transition: opacity 0.1s ease, background-color 0.1s ease, color 0.1s ease, box-shadow 0.1s ease, background 0.1s ease;
+    will-change: '';
+    -webkit-tap-highlight-color: transparent;
+    width: 100px;
+    height: 73px;
+    border: 1px solid black;
+    border-radius: 12px;
+    margin: 5px;
+    background-color: #1b1c1d;
+    /* text-align: center; */
+    font-size: 300%;
+    /* vertical-align: middle; */
+    color: #ffffff;
+    text-shadow: none;
+    background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+}
+.plusEquals {
+	display: flex;
+	flex-direction: column;
+}
+.plus {
+	cursor: pointer;
+    /* font-weight: bold; */
+    /* line-height: 1em; */
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 0.28571429rem;
+    box-shadow: 0px 0px 0px 1px #e1e8ed inset, 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
+    user-select: none;
+    transition: opacity 0.1s ease, background-color 0.1s ease, color 0.1s ease, box-shadow 0.1s ease, background 0.1s ease;
+    will-change: '';
+    -webkit-tap-highlight-color: transparent;
+    width: 100px;
+    height: 118px;
+    border: 1px solid black;
+    border-radius: 12px;
+    margin: 5px;
+    background-color: #1b1c1d;
+    /* text-align: center; */
+    font-size: 300%;
+    /* vertical-align: middle; */
+    color: #ffffff;
+    text-shadow: none;
+    background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+}
+.ce {
+	cursor: pointer;
+    
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 0.28571429rem;
+    box-shadow: 0px 0px 0px 1px #e1e8ed inset, 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
+    user-select: none;
+    transition: opacity 0.1s ease, background-color 0.1s ease, color 0.1s ease, box-shadow 0.1s ease, background 0.1s ease;
+    will-change: '';
+    -webkit-tap-highlight-color: transparent;
+    width: 100px;
+    height: 63px;
+    border: 1px solid black;
+    border-radius: 12px;
+    margin: 5px;
+    background-color: #1b1c1d;
+    /* text-align: center; */
+    font-size: 3em;
+    /* vertical-align: middle; */
+    color: #ffffff;
+    text-shadow: none;
+    background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+}

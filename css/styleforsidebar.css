@@ -1,0 +1,42 @@
+.sitemap {
+    position: absolute;
+    z-index: 75;
+    top: 100px;
+    left: 10px;
+    width: 370px;
+    height: 850px;
+    border: 1px solid #79C8DC;
+    border-radius:  10px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+}
+.sidebar {
+    height: auto;
+    width: 100%;
+    background: ;
+}
+.button {
+    width: 80%;
+    background: #EBEDEF;
+    margin: 15px auto 0 auto;
+    height: auto;
+    min-height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 10px;
+    color: #79C8DC;
+    cursor: pointer;
+}
+.redButton {
+    width: 80%;
+    background: #FDABAF;
+    margin: 15px auto 0 auto;
+    height: auto;
+    min-height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+}
